@@ -1,0 +1,58 @@
+{
+  "name": "@lnear/ds",
+  "description": "A collection of data structures for JavaScript and TypeScript",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "data-structure",
+    "ds",
+    "lnear"
+  ],
+  "homepage": "https://docs.lnear.dev/ds",
+  "author": {
+    "name": "lnear",
+    "email": "hi@lnear.dev",
+    "url": "https://lnear.dev"
+  },
+  "maintainers": [
+    {
+      "name": "lnear",
+      "email": "hi@lnear.dev",
+      "url": "https://lnear.dev"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lnear-dev/ds.git"
+  },
+  "main": "./dist/lnear-ds.js",
+  "typings": "./dist/lnear-ds.d.ts",
+  "module": "./dist/lnear-ds.js",
+  "exports": {
+    ".": {
+      "import": "./dist/lnear-ds.js",
+      "require": "./dist/lnear-ds.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "perhaps-ts": "^0.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.4.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vitest": "1.6.0",
+    "vite-plugin-dts": "^3.8.3"
+  }
+}
