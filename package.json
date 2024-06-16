@@ -2,7 +2,7 @@
   "name": "@lnear/ds",
   "description": "A collection of data structures for JavaScript and TypeScript",
   "private": false,
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "module",
   "files": [
     "dist"
